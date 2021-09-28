@@ -15,7 +15,9 @@ toml = "*"
 fiona = [
    { platform = 'linux', version = "*" },
 ]
-gdal = []
+gdal = [
+   { platform = 'linux', version = "3.2.1" },
+]
 geopandas = [
    { platform = 'linux', version = "*" },
 ]
@@ -30,7 +32,7 @@ shapely = [
    { version = "*", platform = 'linux' },
 ]
 cartopy = [
-   { version = "*", platform = 'linux' },
+   { version = "0.19.0.post1", platform = 'linux' },
 ]
 ipywidgets = "^7.6.3"
 panel = "^0.11.3"
