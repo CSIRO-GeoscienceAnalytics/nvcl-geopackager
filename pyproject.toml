@@ -14,25 +14,31 @@ numpy = "^1.19.1"
 toml = "*"
 fiona = [
    { platform = 'linux', version = "*" },
+   { platform = 'win32', url = "https://storage.googleapis.com/public-python-libs/Fiona-1.8.16-cp38-cp38-win_amd64.whl" }
 ]
 gdal = [
    { platform = 'linux', version = "3.2.1" },
+   { url = "https://storage.googleapis.com/public-python-libs/GDAL-3.1.2-cp38-cp38-win_amd64.whl", platform = 'win32' }
 ]
 geopandas = [
    { platform = 'linux', version = "*" },
+   { platform = 'win32', url = "https://storage.googleapis.com/public-python-libs/geopandas-0.8.1-py3-none-any.whl" },
 ]
 pydantic = "*"
 pyproj = [
    { version = "*", platform = 'linux' },
+   { url = "https://storage.googleapis.com/public-python-libs/pyproj-2.6.1.post1-cp38-cp38-win_amd64.whl", platform = 'win32' },
 ]
 rasterio = [
    { platform = 'linux', version = "*" },
-]
+   { platform = 'win32', url = "https://storage.googleapis.com/public-python-libs/rasterio-1.1.5-cp38-cp38-win_amd64.whl" },]
 shapely = [
    { version = "*", platform = 'linux' },
+   { platform = 'win32', url = "https://storage.googleapis.com/public-python-libs/Shapely-1.7.1-cp38-cp38-win_amd64.whl" }, 
 ]
 cartopy = [
    { version = "0.19.0.post1", platform = 'linux' },
+   { url = "https://storage.googleapis.com/public-python-libs/Cartopy-0.18.0-cp38-cp38-win_amd64.whl", platform = 'win32' },
 ]
 ipywidgets = "^7.6.3"
 panel = "^0.11.3"
