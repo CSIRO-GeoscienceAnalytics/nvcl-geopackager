@@ -52,3 +52,14 @@ then run an instance of jupyer lab:
 ```
 
 From within Jupyter lab open 'geopackager.ipynb'
+
+## Panel Application
+Alternatively the notebook can be run as a panel application:
+
+```bash
+>  poetry run panel serve geopackager.ipynb --allow-websocket-origin=127.0.0.1:5006 --log-level info
+```
+
+then:
+
+In a browser navigate to: http://127.0.0.1:5006/geopackager
